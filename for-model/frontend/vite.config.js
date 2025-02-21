@@ -1,5 +1,6 @@
 forEach: Model
 fileName: vite.config.js
+path: frontend
 ---
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
