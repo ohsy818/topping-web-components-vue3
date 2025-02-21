@@ -1,0 +1,53 @@
+{
+  "name": "{{options.package}}",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "serve -l 8080 dist"
+  },
+  "dependencies": {
+    "@johmun/vue-tags-input": "^2.1.0",
+    "@mdi/font": "^7.4.47",
+    "axios": "^0.26.0",
+    "core-js": "^3.6.5",
+    "keycloak-js": "^22.0.1",
+    "serve": "^14.2.4",
+    "vue": "^3.2.31",
+    "vue-router": "^4.5.0",
+    "vuetify": "^3.4.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vite": "^4.0.0",
+    "vite-plugin-vuetify": "1.0.2",
+    "vuetify": "^3.4.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "no-mixed-spaces-and-tabs": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
